@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ body{
+    background-color: yellow;
+ }
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.num{
+    padding: 125px 15px 0px 0px;
+}
+
+.row1{
+    width: 100px;
+    height: 100px;
+    background-color: #518991;
+    margin: 20px;
+    animation: sample 3s infinite alternate;
+}
+
+@keyframes sample{
+    0%{
+        transform: skew(-30deg);
+    }
+    100%{
+        transform: skew(30deg);
+    }
+}
+
+.row2
+{
+    width: 100px;
+    height: 100px;
+    background-color: #a0a0a0;
+    margin: 20px;
+    animation: sample2 3s infinite alternate;
+
+}
+
+@keyframes sample2
+{
+    0%
+    {
+        transform: skewY(-30deg);
+    }
+    100%
+    {
+        transform: skewY(30deg);
+    }
+}
+.row3
+{
+    width: 100px;
+    height: 100px;
+    background-color: #518991;
+    margin: 20px;
+    animation: sample3 3s infinite;
+
+}
+
+@keyframes sample3
+{
+    0%
+    {
+        transform: rotate(-180deg);
+    }
+    100%
+    {
+        transform: rotate(180deg);
+    }
+}
+.row4
+{
+    width: 100px;
+    height: 100px;
+    background-color: #518991;
+    margin: 20px;
+    animation: sample4 3s infinite alternate;
+    border: 1px solid black;
+
+}
+@keyframes sample4
+{
+    0%
+    {
+        transform: scale(1,1);
+    }
+    100%
+    {
+        transform: scale(1,0.4);
+    }
+}
+
+.row5
+{
+    width: 100px;
+    height: 100px;
+    background-color: #9b4837;
+    margin: 20px;
+    animation: sample5 3s infinite alternate;
+    border: 1px solid black;
+}
+@keyframes sample5
+{
+    0%
+    {
+        transform: scaleX(1,1);
+    }
+    100%
+    {
+        transform: scaleX(0.5);
+    }
+}
+.row6
+{
+    width: 100px;
+    height: 100px;
+    background-color: #62aa4e;
+    margin: 20px;
+    animation: sample6 3s infinite alternate;
+    border: 1px solid black;
+}
+@keyframes sample6
+{
+    0%
+    {
+        transform: rotate(-90deg);
+    }
+    100%
+    {
+        transform: rotate(0deg);
+    }
+}
